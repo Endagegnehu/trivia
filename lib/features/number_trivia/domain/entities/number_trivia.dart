@@ -1,6 +1,8 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 
+// Encapsulate Enterprise wide business rules
+
 class NumberTrivia extends Equatable {
   final String text;
   final int number;

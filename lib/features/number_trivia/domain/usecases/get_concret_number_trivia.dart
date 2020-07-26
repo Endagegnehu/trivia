@@ -7,6 +7,8 @@ import 'package:trivia/features/number_trivia/domain/entities/number_trivia.dart
 
 import '../repositories/number_trivia_repositories.dart';
 
+// Application specific business rules
+
 class GetConcretNumberTrivia implements Usecase<NumberTrivia, Params> {
   final NumberTriviaRepositories repository;
 
